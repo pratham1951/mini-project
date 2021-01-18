@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+            pre {
+            color: #5000a9;
+            font-size: larger;
+            font-family: -webkit-pictograph;
+            margin-left: 4%;
+        }
+    </style>
+</head>
+
+<body>
+    <html nighteye="disabled">
+
+    <!-- <head></head> -->
+
+    <!-- <body> -->
+        <pre style="word-wrap: break-word; white-space: pre-wrap;">			
+                                                                    Text Alignment
+
+        Start aligned text on all viewport sizes.
+        Center aligned text on all viewport sizes.
+        End aligned text on all viewport sizes.
+        Start aligned text on viewports sized SM (small) or wider.
+        Start aligned text on viewports sized MD (medium) or wider.
+        Start aligned text on viewports sized LG (large) or wider.
+        Start aligned text on viewports sized XL (extra-large) or wider.
+        
+        
+        &lt;p class="text-start"&gt;Start aligned text on all viewport sizes.&lt;/p&gt;
+        &lt;p class="text-center"&gt;Center aligned text on all viewport sizes.&lt;/p&gt;
+        &lt;p class="text-end"&gt;End aligned text on all viewport sizes.&lt;/p&gt;
+        
+        &lt;p class="text-sm-start"&gt;Start aligned text on viewports sized SM (small) or wider.&lt;/p&gt;
+        &lt;p class="text-md-start"&gt;Start aligned text on viewports sized MD (medium) or wider.&lt;/p&gt;
+        &lt;p class="text-lg-start"&gt;Start aligned text on viewports sized LG (large) or wider.&lt;/p&gt;
+        &lt;p class="text-xl-start"&gt;Start aligned text on viewports sized XL (extra-large) or wider.&lt;/p&gt;
+        
+        
+        
+        
+                                                            Text wrapping and overflow
+        
+        &lt;div class="badge bg-primary text-wrap" style="width: 6rem;"&gt;
+          This text should wrap.
+        &lt;/div&gt;
+        Prevent text from wrapping with a .text-nowrap class.
+        
+        This text should overflow the parent.
+        Copy
+        &lt;div class="text-nowrap bd-highlight" style="width: 8rem;"&gt;
+          This text should overflow the parent.
+        &lt;/div&gt;
+        
+        
+        
+                                                            Text transform
+        
+        Transform text in components with text capitalization classes.
+        
+        lowercased text.
+        
+        UPPERCASED TEXT.
+        
+        CapiTaliZed Text.
+        
+        Copy
+        &lt;p class="text-lowercase"&gt;Lowercased text.&lt;/p&gt;
+        &lt;p class="text-uppercase"&gt;Uppercased text.&lt;/p&gt;
+        &lt;p class="text-capitalize"&gt;CapiTaliZed text.&lt;/p&gt;
+        Note how .text-capitalize only changes the first letter of each word, leaving the case of any other 
+        letters unaffected.
+        
+        
+        
+                                                             Font size
+        
+        Quickly change the font-size of text. While our heading classes (e.g., .h1–.h6) apply font-size, 
+        font-weight, and line-height, these utilities only apply font-size. Sizing for these utilities matches HTML’s 
+        heading elements, so as the number increases, their size decreases.
+        
+        .fs-1 text
+        
+        .fs-2 text
+        
+        .fs-3 text
+        
+        .fs-4 text
+        
+        .fs-5 text
+        
+        .fs-6 text
+        
+        Copy
+        &lt;p class="fs-1"&gt;.fs-1 text&lt;/p&gt;
+        &lt;p class="fs-2"&gt;.fs-2 text&lt;/p&gt;
+        &lt;p class="fs-3"&gt;.fs-3 text&lt;/p&gt;
+        &lt;p class="fs-4"&gt;.fs-4 text&lt;/p&gt;
+        &lt;p class="fs-5"&gt;.fs-5 text&lt;/p&gt;
+        &lt;p class="fs-6"&gt;.fs-6 text&lt;/p&gt;
+        Customize your available font-sizes by modifying the $font-sizes Sass map.
+        
+        Copy
+        $font-sizes: (
+          1: $h1-font-size,
+          2: $h2-font-size,
+          3: $h3-font-size,
+          4: $h4-font-size,
+          5: $h5-font-size,
+          6: $h6-font-size
+        );
+        
+        
+        
+                                                        Font weight and italics
+        
+        Quickly change the font-weight or font-style of text with these utilities. font-style utilities are 
+        abbreviated as .fst-* and font-weight utilities are abbreviated as .fw-*.
+        
+        Bold text.
+        
+        Bolder weight text (relative to the parent element).
+        
+        Normal weight text.
+        
+        Light weight text.
+        
+        Lighter weight text (relative to the parent element).
+        
+        Italic text.
+        
+        Text with normal font style
+        
+        Copy
+        &lt;p class="fw-bold"&gt;Bold text.&lt;/p&gt;
+        &lt;p class="fw-bolder"&gt;Bolder weight text (relative to the parent element).&lt;/p&gt;
+        &lt;p class="fw-normal"&gt;Normal weight text.&lt;/p&gt;
+        &lt;p class="fw-light"&gt;Light weight text.&lt;/p&gt;
+        &lt;p class="fw-lighter"&gt;Lighter weight text (relative to the parent element).&lt;/p&gt;
+        &lt;p class="fst-italic"&gt;Italic text.&lt;/p&gt;
+        &lt;p class="fst-normal"&gt;Text with normal font style&lt;/p&gt;
+        </pre>
+    <!-- </body> -->
+
+    <!-- </html> -->
+</body>
+
+</html>
